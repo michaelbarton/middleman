@@ -69,7 +69,7 @@ module Middleman
 
     # Which host preview should start on.
     # @return [Fixnum]
-    config.define_setting :host, '0.0.0.0', 'The preview server host'
+    config.define_setting :host, '127.0.0.0', 'The preview server host'
 
     # Which port preview should start on.
     # @return [Fixnum]
